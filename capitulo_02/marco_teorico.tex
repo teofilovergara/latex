@@ -1,0 +1,126 @@
+\fancyhead{}
+\fancyfoot{}
+\newtheorem{teorema}{Teorema}
+\cfoot{\thepage}
+
+\lhead{Conceptos fundamentales, teorías y antecedentes}
+%\rhead{\today}
+%\rfoot{\thepage}
+
+\chapter{Conceptos fundamentales, teorías y antecedentes}
+Este capítulo abarca conceptualmente dos aspectos relacionados al marco que sirve de recipiente contenedor de la teoría que abarca y enmarca el problema de investigación: los conceptos e ideas fundamentales, y los trabajos de otros autores que sirven de marco de referencia al trabajo. No debe desarrollarse aquí el trabajo propiamente dicho.
+
+\section{Conceptos fundamentales}
+Definiciones y profundizaciones descriptivas de conceptos e ideas que abstraen la realidad abordada.
+
+\section{Antecedentes}
+Estudios y experiencias previas que se relacionan con el tema investigado y resumen de los hallazgos más importantes que ayudan a configurar el estado actual de la ciencia en el área de la problemática a ser tratada en los siguientes capítulos. La exposición teórica debe discurrir desde lo más antiguo hacia lo actual y desde lo más amplio hacia el tema específico del trabajo. Al final esta revisión debe posibilitar averiguar el estado de conocimiento actual y en qué medida brinda una respuesta (parcial) a las preguntas emanadas de la definición del problema \cite{sampieri}.
+
+Este capítulo usualmente es prolífico en citas de fuentes bibliográficas. Se recomienda usar el formato estándar IEEE Computer para las referencias, i.e, una lista numerada al final del artículo, ordenada alfabéticamente por el primer autor, y citada en el texto por números en corchetes \cite{ieee}. Una gran ventaja de este estilo de referenciación es que se basa en números que siempre resultan más ágiles de manipular en comparación con otros estilos que emplean combinaciones de nombres y fechas. Véanse los ejemplos de citas en este documento.
+
+ Además, suele contener elementos tales como nombres propios, locuciones latinas y extranjeras, abreviaturas y acrónimos, símbolos gráficos de diversos significados.
+
+Este documento auto explicado diseñado para servir de guía del informe de investigación fue elaborado en Latex (\LaTeX), el cual es un lenguaje de etiquetas de uso profesional para la divulgación del trabajo de investigación científica o tecnológica. A continuación se presentan ejemplos de elementos constitutivos de un informe de trabajo de investigación como es el TFG. Consúltese el archivo fuente \textit{tex} de este documento para ver cómo se definen tales elementos y verifíquese en este documento \textit{pdf} cómo se ve la salida obtenida en cada caso:
+\begin{enumerate}
+\item cómo aparece en el cuerpo del documento,
+\item cómo aparece en las listas correspondientes (de acrónimos y símbolos, de figuras, de tablas y en el glosario).
+\end{enumerate}
+Solo se muestran casos típicos, remitiendo al lector a la copiosa ayuda que se encuentra en línea para profundizar en los detalles y dar un formato en \LaTeX\space al informe del TFG.
+
+\textbf{Ejemplos de elementos constitutivos}
+\textit{\textbf{Entradas de glosario}}
+
+Abarca definiciones de vocablos de la jerga científica y técnica empleados en la redacción del informe del trabajo de investigación.
+\begin{itemize}
+
+\item \textit{Ejemplo No. 1.}
+\newglossaryentry{electrolito}
+{
+name=electrolito,
+description={solución capaz de conducir corriente eléctrica}
+}
+\begin{enumerate}
+\item \textit{\Gls{electrolito}:} (mayúscula).
+\item El \textit{\gls{electrolito}} (minúscula) de la pila voltaica es una solución al 5 \% de ácido sulfúrico en agua destilada.
+\item En la práctica, los \textit{\glspl{electrolito}} (plural) usualmente existen como soluciones de sales, bases o ácidos.
+\end{enumerate}
+
+\item \textit{Ejemplo No. 2.}
+\newglossaryentry{linus}
+{
+  name=Linux,
+  description={es un nombre genérico que refiere a una familia de sistemas operativos
+  			  semejantes al Unix y que usa un kernel (núcleo) común},
+  first={Linu (de su creador Linus Torvald) + x:  (Linux)},
+  plural={Linuces},
+}
+
+\begin{enumerate}
+\item \Gls{linus} es un sistema operativo de uso libre (mayúscula en singular).
+\item Existe una gran gama de distribuciones de  \Glspl{linus} (mayúscula en plural).
+\item En la Facultad Politécnica se realizan muchos trabajos de investigación mediante el sistema operativo \gls{linus} (siguientes menciones).
+\end{enumerate}
+
+\item \textit{Ejemplo No. 3.}
+
+\newglossaryentry{matri}% la etiqueta
+{
+name={matriz},% el vocablo
+description={una tabla rectangular de elementos},% breve descripción
+plural={matrices}% el plural
+}
+\Glspl{matri} son arreglos usualmente denotados por una letra negrita mayúscula, tal como $\mathbf{A}$. El elemento $(i,j)$ésimo de la \gls{matri}[ A]  es usualmente denotado como $a_{ij}$. \Gls{matri}[ $\mathbf{I}$]: \gls{matri} identidad.
+
+\end{itemize}
+
+\textit{\textbf{Entradas de acrónimos y símbolos}}
+
+Abarcan abreviaturas, siglas y símbolos diversos que representan conceptos y que como tales, además poseen un nombre extenso según su naturaleza. Al redactar el informe de investigación, el alumno debe recordar valerse de la gran ayuda disponible en Internet para conseguir reproducir cada objeto gráfico de manera expedita.
+\begin{itemize}
+\item \textit{Ejemplo No. 1. Acrónimo.}
+
+\newacronym{svm}{SVM}{Support Vector Machine}
+Primer uso: \gls{svm}\@. Siguiente uso: \gls{svm}\@. Forma corta: \acrshort{svm}\@. Forma larga: \acrlong{svm}\@. Forma completa: \acrfull{svm}\@ 
+\glsreset{svm} % reinicia la bandera de primer uso
+
+\item \textit{Ejemplo No. 2. Símbolo.}
+
+\newacronym{PI}{\ensuremath{\pi}}{razón de la circunferencia del círculo a su diámetro}
+
+El número \gls{PI} es una cantidad irracional, y como tal, exactamente innumerable en el sentido que no puede ser exactamente expresada en cifras: \gls{PI} = 3,141592653589793238462643383279...  Así, el valor de \gls{PI} para muchos fines prácticos suele aproximarse a 3,14.
+\glsreset{PI} % reinicia la bandera de primer uso
+
+\end{itemize}
+
+\textit{\textbf{Símbolos y expresiones matemáticas}}
+
+Abarca desde una simple notación o expresión en medio de un renglón hasta complejos arreglos de ecuaciones o matrices con símbolos difíciles de reproducir. Estos símbolos y expresiones requieren ser escritos en entornos matemáticos y a menudo demandan numeración secuencial que facilitan la referencia cruzada desde el texto. En \LaTeX, como en ningún otro procesador de documentos científicos, existen varios miles de símbolos matemáticos que permiten escribir prácticamente cualquier símbolo matemático que un autor pueda precisar. Esto es natural, tratándose de una herramienta informática creada a propósito para atender las necesidades de comunicación del conocimiento científico \cite{knuth, lamport}.
+
+Las expresiones matemáticas se escriben solamente dentro de entornos matemáticos, también, en general, los símbolos propios de expresiones matemáticas. A continuación, algunos de estos entornos y expresiones matemáticas como ejemplos:
+
+Así se escribe una ecuación en línea: $\int_{-\infty}^{\infty} e^{-x^{2}} \, dx
+= \sqrt{\pi}$, donde el entorno en línea está denotado por el par de apertura y cierre \$ \dots \$. Opcionalmente, se logra el mismo resultado con el par $ \backslash( \dots \backslash) $, como puede apreciarse: \( \int_{-\infty}^{\infty} e^{-x^{2}} \, dx
+= \sqrt{\pi} \).
+
+Una expresión matemática desplegada en línea especialmente separada del texto se obtiene con el entorno matemático creado por el par de apertura y cierre $ \backslash[ \dots \backslash] $. Por ejemplo: \[ \left( \frac{1}{2} \right)^{\alpha} \] se obtiene de esta manera.
+
+Cuando se demanda de ecuaciones enumeradas, principalmente útiles para referencias cruzadas a las mismas, se emplea el siguiente entorno matemático que produce la salida correspondiente: \begin{equation}
+\sum_{i = 1}^{ \left[ \frac{n}{2} \right] }
+\binom{ x_{i, i + 1}^{i^{2}} }
+{ \left[ \frac{i + 3}{3} \right] }
+\frac{ \sqrt{ \mu(i)^{ \frac{3}{2}} (i^{2} - 1) } }
+{\sqrt[3]{\rho(i)-2} + \sqrt[3]{\rho(i) - 1}}
+\end{equation}
+Nótese el uso de indentación jerárquica para rastrear la estructura de la fórmula, el espaciado para resaltar las llaves y la separación de líneas para los varios pedazos de fórmulas que son más largas que una línea de texto normal. Latex posee la capacidad de gestión automática de numeración y contadores, tal que el escritor no debe actualizar manualmente los cambios de número y sus respectivas referencias.
+
+Como ejemplo final, este es un ejemplo de referencia cruzada, (teorema \ref{Pitag} y Ec. \ref{pitag}):
+
+\begin{teorema}[Teorema de Pitágoras]
+En un triángulo rectángulo, el cuadrado de la hipotenusa es igual a la suma de los cuadrados de los catetos:
+\begin{equation}
+hip^2 = cat_1^2 + cat_2^2
+\label{pitag}
+\end{equation}
+\label{Pitag}
+\end{teorema}
+donde: \textit{hip} es la hipotenusa del triángulo rectángulo y, $ cat_1 $ y $ cat_2 $ son los catetos del mismo.

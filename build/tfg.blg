@@ -1,0 +1,86 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: tfg.aux
+Reallocating 'name_of_file' (item size: 1) to 66 items.
+A level-1 auxiliary file: ./portada_y_ficha_catalografica/portada_y_ficha_catalografica.aux
+Reallocating 'name_of_file' (item size: 1) to 38 items.
+A level-1 auxiliary file: ./hoja_aprobacion/hoja_aprobacion.aux
+Reallocating 'name_of_file' (item size: 1) to 30 items.
+A level-1 auxiliary file: ./dedicatoria/dedicatoria.aux
+Reallocating 'name_of_file' (item size: 1) to 38 items.
+A level-1 auxiliary file: ./agradecimientos/agradecimientos.aux
+Reallocating 'name_of_file' (item size: 1) to 24 items.
+A level-1 auxiliary file: ./epigrafe/epigrafe.aux
+Reallocating 'name_of_file' (item size: 1) to 22 items.
+A level-1 auxiliary file: ./resumen/resumen.aux
+Reallocating 'name_of_file' (item size: 1) to 24 items.
+A level-1 auxiliary file: ./abstract/abstract.aux
+Reallocating 'name_of_file' (item size: 1) to 31 items.
+A level-1 auxiliary file: ./capitulo_01/introduccion.aux
+Reallocating 'name_of_file' (item size: 1) to 32 items.
+A level-1 auxiliary file: ./capitulo_02/marco_teorico.aux
+Reallocating 'name_of_file' (item size: 1) to 29 items.
+A level-1 auxiliary file: ./capitulo_04/resultados.aux
+Reallocating 'name_of_file' (item size: 1) to 28 items.
+A level-1 auxiliary file: ./capitulo_05/discusion.aux
+Reallocating 'name_of_file' (item size: 1) to 19 items.
+A level-1 auxiliary file: ./anexos/anexo.aux
+Reallocating 'name_of_file' (item size: 1) to 20 items.
+The style file: IEEEtran-castellano.bst
+Reallocating 'name_of_file' (item size: 1) to 5 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 6000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Database file #1: test.bib
+Warning--I didn't find a database entry for "lan"
+-- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
+-- http://www.michaelshell.org/tex/ieeetran/bibtex/
+-- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
+** IEEEtran BST control entry "IEEEexample:BSTcontrol" detected.
+Warning--empty author and editor in lamport
+
+Done.
+You've used 5 entries,
+            4087 wiz_defined-function locations,
+            861 strings with 8472 characters,
+and the built_in function-call counts, 1902 in all, are:
+= -- 119
+> -- 42
+< -- 5
++ -- 20
+- -- 10
+* -- 92
+:= -- 322
+add.period$ -- 8
+call.type$ -- 5
+change.case$ -- 8
+chr.to.int$ -- 21
+cite$ -- 6
+duplicate$ -- 148
+empty$ -- 204
+format.name$ -- 8
+if$ -- 419
+int.to.chr$ -- 0
+int.to.str$ -- 4
+missing$ -- 24
+newline$ -- 40
+num.names$ -- 3
+pop$ -- 84
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 4
+skip$ -- 140
+stack$ -- 0
+substring$ -- 12
+swap$ -- 68
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 6
+type$ -- 5
+warning$ -- 1
+while$ -- 9
+width$ -- 5
+write$ -- 57
+(There were 2 warnings)
