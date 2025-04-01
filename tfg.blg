@@ -34,53 +34,57 @@ Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'wiz_functions' (item size: 4) to 6000 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Database file #1: test.bib
-Warning--I didn't find a database entry for "lan"
 -- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
 ** IEEEtran BST control entry "IEEEexample:BSTcontrol" detected.
-Warning--empty author and editor in lamport
+Too many commas in name 1 of "Zamora-Medina, Janeth Roxana; Briones-Rezabale, Luis Rene; Arteaga-Linzan, Ángel Rafael y Rodrigues-Ramos, Pedro A." for entry Zamo
+while executing---line 2403 of file IEEEtran-castellano.bst
+Too many commas in name 1 of "Zamora-Medina, Janeth Roxana; Briones-Rezabale, Luis Rene; Arteaga-Linzan, Ángel Rafael y Rodrigues-Ramos, Pedro A." for entry Zamo
+while executing---line 2403 of file IEEEtran-castellano.bst
+Too many commas in name 1 of "Vargas Chavarro, David Alejandro, Rincón Aristizabal, Luis Felipe." for entry Var
+while executing---line 2403 of file IEEEtran-castellano.bst
 
 Done.
-You've used 5 entries,
+You've used 22 entries,
             4087 wiz_defined-function locations,
-            861 strings with 8472 characters,
-and the built_in function-call counts, 1902 in all, are:
-= -- 119
-> -- 42
-< -- 5
-+ -- 20
-- -- 10
-* -- 92
-:= -- 322
-add.period$ -- 8
-call.type$ -- 5
-change.case$ -- 8
-chr.to.int$ -- 21
-cite$ -- 6
-duplicate$ -- 148
-empty$ -- 204
-format.name$ -- 8
-if$ -- 419
+            967 strings with 12288 characters,
+and the built_in function-call counts, 9021 in all, are:
+= -- 770
+> -- 118
+< -- 3
++ -- 59
+- -- 30
+* -- 402
+:= -- 1835
+add.period$ -- 42
+call.type$ -- 22
+change.case$ -- 30
+chr.to.int$ -- 15
+cite$ -- 22
+duplicate$ -- 708
+empty$ -- 868
+format.name$ -- 27
+if$ -- 1976
 int.to.chr$ -- 0
-int.to.str$ -- 4
-missing$ -- 24
-newline$ -- 40
-num.names$ -- 3
-pop$ -- 84
+int.to.str$ -- 21
+missing$ -- 123
+newline$ -- 129
+num.names$ -- 21
+pop$ -- 306
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 4
-skip$ -- 140
+skip$ -- 734
 stack$ -- 0
-substring$ -- 12
-swap$ -- 68
+substring$ -- 39
+swap$ -- 380
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 6
-type$ -- 5
-warning$ -- 1
-while$ -- 9
-width$ -- 5
-write$ -- 57
-(There were 2 warnings)
+type$ -- 22
+warning$ -- 0
+while$ -- 26
+width$ -- 23
+write$ -- 257
+(There were 3 error messages)

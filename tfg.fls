@@ -202,45 +202,6 @@ OUTPUT tfg.idx
 OUTPUT tfg.glo
 INPUT C:\Miktex\tex\latex\l3backend\l3backend-pdftex.def
 INPUT C:\Miktex\tex\latex\l3backend\l3backend-pdftex.def
-INPUT .\tfg.aux
-INPUT .\tfg.aux
-INPUT tfg.aux
-INPUT .\portada_y_ficha_catalografica\portada_y_ficha_catalografica.aux
-INPUT .\portada_y_ficha_catalografica\portada_y_ficha_catalografica.aux
-INPUT portada_y_ficha_catalografica\portada_y_ficha_catalografica.aux
-INPUT .\hoja_aprobacion\hoja_aprobacion.aux
-INPUT .\hoja_aprobacion\hoja_aprobacion.aux
-INPUT hoja_aprobacion\hoja_aprobacion.aux
-INPUT .\dedicatoria\dedicatoria.aux
-INPUT .\dedicatoria\dedicatoria.aux
-INPUT dedicatoria\dedicatoria.aux
-INPUT .\agradecimientos\agradecimientos.aux
-INPUT .\agradecimientos\agradecimientos.aux
-INPUT agradecimientos\agradecimientos.aux
-INPUT .\epigrafe\epigrafe.aux
-INPUT .\epigrafe\epigrafe.aux
-INPUT epigrafe\epigrafe.aux
-INPUT .\resumen\resumen.aux
-INPUT .\resumen\resumen.aux
-INPUT resumen\resumen.aux
-INPUT .\abstract\abstract.aux
-INPUT .\abstract\abstract.aux
-INPUT abstract\abstract.aux
-INPUT .\capitulo_01\introduccion.aux
-INPUT .\capitulo_01\introduccion.aux
-INPUT capitulo_01\introduccion.aux
-INPUT .\capitulo_02\marco_teorico.aux
-INPUT .\capitulo_02\marco_teorico.aux
-INPUT capitulo_02\marco_teorico.aux
-INPUT .\capitulo_04\resultados.aux
-INPUT .\capitulo_04\resultados.aux
-INPUT capitulo_04\resultados.aux
-INPUT .\capitulo_05\discusion.aux
-INPUT .\capitulo_05\discusion.aux
-INPUT capitulo_05\discusion.aux
-INPUT .\anexos\anexo.aux
-INPUT .\anexos\anexo.aux
-INPUT anexos\anexo.aux
 OUTPUT tfg.aux
 INPUT C:\Miktex\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Miktex\tex\context\base\mkii\supp-pdf.mkii
@@ -250,14 +211,8 @@ INPUT C:\Miktex\tex\latex\epstopdf-pkg\epstopdf-base.sty
 INPUT C:\Miktex\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Miktex\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Miktex\tex\latex\00miktex\epstopdf-sys.cfg
-INPUT .\tfg.out
-INPUT .\tfg.out
-INPUT tfg.out
-INPUT tfg.out
-OUTPUT tfg.pdf
-INPUT .\tfg.out
-INPUT .\tfg.out
 OUTPUT tfg.out
+OUTPUT tfg.pdf
 INPUT .\tfg.glsdefs
 INPUT .\tfg.glsdefs
 INPUT tfg.glsdefs
@@ -296,25 +251,6 @@ INPUT .\portada_y_ficha_catalografica\logo.png
 INPUT .\portada_y_ficha_catalografica\logo.png
 INPUT C:\Miktex\fonts\tfm\public\cm\cmr17.tfm
 INPUT C:\Miktex\fonts\tfm\public\cm\cmbx12.tfm
-INPUT C:\Miktex\fonts\tfm\public\cm\cmr17.tfm
-INPUT C:\Miktex\fonts\tfm\public\cm\cmr17.tfm
-INPUT C:\Miktex\fonts\tfm\public\cm\cmmi12.tfm
-INPUT C:\Miktex\fonts\tfm\public\cm\cmmi12.tfm
-INPUT C:\Miktex\fonts\tfm\public\cm\cmmi12.tfm
-INPUT C:\Miktex\fonts\tfm\public\cm\cmsy10.tfm
-INPUT C:\Miktex\fonts\tfm\public\cm\cmsy10.tfm
-INPUT C:\Miktex\fonts\tfm\public\cm\cmsy10.tfm
-INPUT C:\Miktex\fonts\tfm\public\cm\cmex10.tfm
-INPUT C:\Miktex\fonts\tfm\public\cm\cmex10.tfm
-INPUT C:\Miktex\fonts\tfm\public\cm\cmex10.tfm
-INPUT C:\Miktex\fonts\tfm\public\amsfonts\symbols\msam10.tfm
-INPUT C:\Miktex\fonts\tfm\public\amsfonts\symbols\msam10.tfm
-INPUT C:\Miktex\fonts\tfm\public\amsfonts\symbols\msam10.tfm
-INPUT C:\Miktex\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
-INPUT C:\Miktex\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
-INPUT C:\Miktex\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
-INPUT C:\Miktex\fonts\tfm\public\amsfonts\symbols\msam10.tfm
-INPUT C:\Miktex\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT .\portada_y_ficha_catalografica\portada_y_ficha_catalografica.tex
 INPUT .\portada_y_ficha_catalografica\portada_y_ficha_catalografica.tex
 OUTPUT tfg.ist
@@ -324,14 +260,8 @@ INPUT .\portada_y_ficha_catalografica\portada_y_ficha_catalografica.tex
 INPUT .\portada_y_ficha_catalografica\portada_y_ficha_catalografica.tex
 INPUT portada_y_ficha_catalografica\portada_y_ficha_catalografica.tex
 INPUT C:\Miktex\fonts\tfm\public\cm\cmr12.tfm
-INPUT C:\Miktex\fonts\tfm\public\cm\cmmi12.tfm
-INPUT C:\Miktex\fonts\tfm\public\cm\cmsy10.tfm
-INPUT C:\Miktex\fonts\tfm\public\cm\cmex10.tfm
-INPUT C:\Miktex\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
-INPUT C:\Miktex\fonts\tfm\public\amsfonts\symbols\msam10.tfm
-INPUT C:\Miktex\fonts\tfm\public\amsfonts\symbols\msam7.tfm
-INPUT C:\Miktex\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
-INPUT C:\Miktex\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
+OUTPUT tfg.toc
+INPUT C:\Miktex\fonts\tfm\public\cm\cmcsc10.tfm
 INPUT .\hoja_aprobacion\hoja_aprobacion.tex
 INPUT .\hoja_aprobacion\hoja_aprobacion.tex
 OUTPUT .\hoja_aprobacion\hoja_aprobacion.aux
@@ -364,6 +294,7 @@ OUTPUT .\resumen\resumen.aux
 INPUT .\resumen\resumen.tex
 INPUT .\resumen\resumen.tex
 INPUT resumen\resumen.tex
+INPUT C:\Miktex\fonts\tfm\public\cm\cmr17.tfm
 INPUT C:\Miktex\fonts\tfm\public\cm\cmbx12.tfm
 INPUT .\abstract\abstract.tex
 INPUT .\abstract\abstract.tex
@@ -374,17 +305,8 @@ INPUT abstract\abstract.tex
 INPUT .\tfg.toc
 INPUT .\tfg.toc
 INPUT tfg.toc
-INPUT C:\Miktex\fonts\tfm\public\cm\cmbx8.tfm
-INPUT C:\Miktex\fonts\tfm\public\cm\cmcsc10.tfm
 OUTPUT tfg.toc
-INPUT C:\Miktex\fonts\tfm\public\cm\cmsl12.tfm
-INPUT .\tfg.lof
-INPUT .\tfg.lof
-INPUT tfg.lof
 OUTPUT tfg.lof
-INPUT .\tfg.lot
-INPUT .\tfg.lot
-INPUT tfg.lot
 OUTPUT tfg.lot
 INPUT .\capitulo_01\introduccion.tex
 INPUT .\capitulo_01\introduccion.tex
@@ -392,59 +314,135 @@ OUTPUT .\capitulo_01\introduccion.aux
 INPUT .\capitulo_01\introduccion.tex
 INPUT .\capitulo_01\introduccion.tex
 INPUT capitulo_01\introduccion.tex
+INPUT C:\Miktex\fonts\tfm\public\cm\cmr17.tfm
 INPUT .\capitulo_02\marco_teorico.tex
 INPUT .\capitulo_02\marco_teorico.tex
 OUTPUT .\capitulo_02\marco_teorico.aux
 INPUT .\capitulo_02\marco_teorico.tex
 INPUT .\capitulo_02\marco_teorico.tex
 INPUT capitulo_02\marco_teorico.tex
-INPUT C:\Miktex\fonts\tfm\public\cm\cmbxti10.tfm
-OUTPUT tfg.glsdefs
-INPUT C:\Miktex\fonts\tfm\public\cm\cmbx6.tfm
-INPUT C:\Miktex\fonts\tfm\jknappen\ec\tcrm1200.tfm
+INPUT .\images\grafico.png
+INPUT .\images\grafico.png
+INPUT .\images\grafico.png
+INPUT .\images\grafico.png
+INPUT .\images\grafico.png
+INPUT .\images\grafico.png
 INPUT .\capitulo_03\marco_metodologico.tex
 INPUT .\capitulo_03\marco_metodologico.tex
 INPUT .\capitulo_03\marco_metodologico.tex
 INPUT .\capitulo_03\marco_metodologico.tex
 INPUT capitulo_03\marco_metodologico.tex
-INPUT C:\Miktex\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
-INPUT C:\Miktex\fonts\tfm\public\cm\cmbx10.tfm
-INPUT C:\Miktex\fonts\tfm\public\cm\cmbx7.tfm
-INPUT C:\Miktex\fonts\tfm\public\cm\cmbx5.tfm
-INPUT C:\Miktex\fonts\tfm\public\amsfonts\symbols\msam5.tfm
-INPUT C:\Miktex\fonts\tfm\public\amsfonts\symbols\msbm5.tfm
+INPUT .\images\Google trends.png
+INPUT .\images\Google trends.png
+INPUT .\images\Google trends.png
+INPUT .\images\Google trends.png
+INPUT .\images\Google trends.png
+INPUT .\images\Google trends.png
+INPUT .\images\Google trends.png
+INPUT .\images\tiobe.1.png
+INPUT .\images\tiobe.1.png
+INPUT .\images\tiobe.1.png
+INPUT .\images\tiobe.1.png
+INPUT .\images\tiobe.1.png
+INPUT .\images\tiobe.1.png
+INPUT .\images\tiobe.1.png
+INPUT .\images\tiobe.png
+INPUT .\images\tiobe.png
+INPUT .\images\tiobe.png
+INPUT .\images\tiobe.png
+INPUT .\images\tiobe.png
+INPUT .\images\tiobe.png
+INPUT .\images\tiobe.png
+INPUT .\images\Tablas de comparacion.png
+INPUT .\images\Tablas de comparacion.png
+INPUT .\images\Tablas de comparacion.png
+INPUT .\images\Tablas de comparacion.png
+INPUT .\images\Tablas de comparacion.png
+INPUT .\images\Tablas de comparacion.png
+INPUT .\images\Tablas de comparacion.png
 INPUT .\capitulo_04\resultados.tex
 INPUT .\capitulo_04\resultados.tex
 OUTPUT .\capitulo_04\resultados.aux
 INPUT .\capitulo_04\resultados.tex
 INPUT .\capitulo_04\resultados.tex
 INPUT capitulo_04\resultados.tex
-INPUT .\capitulo_04\huella.jpg
-INPUT .\capitulo_04\huella.jpg
-INPUT .\capitulo_04\huella.jpg
-INPUT .\capitulo_04\huella.jpg
-INPUT .\capitulo_04\huella.jpg
-INPUT .\capitulo_04\huella.jpg
-INPUT .\capitulo_04\termodin.png
-INPUT .\capitulo_04\termodin.png
-INPUT .\capitulo_04\termodin.png
-INPUT .\capitulo_04\termodin.png
-INPUT .\capitulo_04\termodin.png
-INPUT .\capitulo_04\termodin.png
-INPUT .\capitulo_04\termodin.png
-INPUT .\capitulo_04\tabla_word.png
-INPUT .\capitulo_04\tabla_word.png
-INPUT .\capitulo_04\tabla_word.png
-INPUT .\capitulo_04\tabla_word.png
-INPUT .\capitulo_04\tabla_word.png
-INPUT .\capitulo_04\tabla_word.png
-INPUT .\capitulo_04\tabla_word.png
+INPUT .\images\Arquitectura del sistema experto.png
+INPUT .\images\Arquitectura del sistema experto.png
+INPUT .\images\Arquitectura del sistema experto.png
+INPUT .\images\Arquitectura del sistema experto.png
+INPUT .\images\Arquitectura del sistema experto.png
+INPUT .\images\Arquitectura del sistema experto.png
+INPUT .\images\Arquitectura del sistema experto.png
+INPUT .\images\Modulo de adquisicion de datos.png
+INPUT .\images\Modulo de adquisicion de datos.png
+INPUT .\images\Modulo de adquisicion de datos.png
+INPUT .\images\Modulo de adquisicion de datos.png
+INPUT .\images\Modulo de adquisicion de datos.png
+INPUT .\images\Modulo de adquisicion de datos.png
+INPUT .\images\Modulo de adquisicion de datos.png
+INPUT .\images\motor de inferencia.png
+INPUT .\images\motor de inferencia.png
+INPUT .\images\motor de inferencia.png
+INPUT .\images\motor de inferencia.png
+INPUT .\images\motor de inferencia.png
+INPUT .\images\motor de inferencia.png
+INPUT .\images\motor de inferencia.png
+INPUT .\images\desarrollo de sistema.png
+INPUT .\images\desarrollo de sistema.png
+INPUT .\images\desarrollo de sistema.png
+INPUT .\images\desarrollo de sistema.png
+INPUT .\images\desarrollo de sistema.png
+INPUT .\images\desarrollo de sistema.png
+INPUT .\images\desarrollo de sistema.png
+INPUT .\images\base de conocimiento.png
+INPUT .\images\base de conocimiento.png
+INPUT .\images\base de conocimiento.png
+INPUT .\images\base de conocimiento.png
+INPUT .\images\base de conocimiento.png
+INPUT .\images\base de conocimiento.png
+INPUT .\images\base de conocimiento.png
+INPUT .\images\cuadro sinoptico.png
+INPUT .\images\cuadro sinoptico.png
+INPUT .\images\cuadro sinoptico.png
+INPUT .\images\cuadro sinoptico.png
+INPUT .\images\cuadro sinoptico.png
+INPUT .\images\cuadro sinoptico.png
+INPUT .\images\cuadro sinoptico.png
+INPUT .\images\codigo de login.png
+INPUT .\images\codigo de login.png
+INPUT .\images\codigo de login.png
+INPUT .\images\codigo de login.png
+INPUT .\images\codigo de login.png
+INPUT .\images\codigo de login.png
+INPUT .\images\codigo de login.png
+INPUT .\images\modificar reglas.png
+INPUT .\images\modificar reglas.png
+INPUT .\images\modificar reglas.png
+INPUT .\images\modificar reglas.png
+INPUT .\images\modificar reglas.png
+INPUT .\images\modificar reglas.png
+INPUT .\images\modificar reglas.png
+INPUT .\images\agregar eliminar.png
+INPUT .\images\agregar eliminar.png
+INPUT .\images\agregar eliminar.png
+INPUT .\images\agregar eliminar.png
+INPUT .\images\agregar eliminar.png
+INPUT .\images\agregar eliminar.png
+INPUT .\images\agregar eliminar.png
+INPUT .\images\evaluar reglas.png
+INPUT .\images\evaluar reglas.png
+INPUT .\images\evaluar reglas.png
+INPUT .\images\evaluar reglas.png
+INPUT .\images\evaluar reglas.png
+INPUT .\images\evaluar reglas.png
+INPUT .\images\evaluar reglas.png
 INPUT .\capitulo_05\discusion.tex
 INPUT .\capitulo_05\discusion.tex
 OUTPUT .\capitulo_05\discusion.aux
 INPUT .\capitulo_05\discusion.tex
 INPUT .\capitulo_05\discusion.tex
 INPUT capitulo_05\discusion.tex
+INPUT C:\Miktex\fonts\tfm\jknappen\ec\tcrm1200.tfm
 INPUT .\anexos\anexo.tex
 INPUT .\anexos\anexo.tex
 OUTPUT .\anexos\anexo.aux
@@ -454,7 +452,6 @@ INPUT anexos\anexo.tex
 INPUT .\tfg.bbl
 INPUT .\tfg.bbl
 INPUT tfg.bbl
-INPUT C:\Miktex\fonts\tfm\public\cm\cmti8.tfm
 INPUT tfg.aux
 INPUT .\portada_y_ficha_catalografica\portada_y_ficha_catalografica.aux
 INPUT .\portada_y_ficha_catalografica\portada_y_ficha_catalografica.aux
@@ -498,37 +495,13 @@ INPUT C:\Users\User\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm
 INPUT C:\Users\User\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1200.pk
 INPUT C:\Miktex\fonts\type1\public\amsfonts\cm\cmbx12.pfb
 INPUT C:\Miktex\fonts\type1\public\amsfonts\cm\cmbx12.pfb
-INPUT C:\Miktex\fonts\type1\public\amsfonts\cm\cmbx8.pfb
-INPUT C:\Miktex\fonts\type1\public\amsfonts\cm\cmbx8.pfb
-INPUT C:\Miktex\fonts\type1\public\amsfonts\cm\cmbxti10.pfb
-INPUT C:\Miktex\fonts\type1\public\amsfonts\cm\cmbxti10.pfb
 INPUT C:\Miktex\fonts\type1\public\amsfonts\cm\cmcsc10.pfb
 INPUT C:\Miktex\fonts\type1\public\amsfonts\cm\cmcsc10.pfb
-INPUT C:\Miktex\fonts\type1\public\amsfonts\cm\cmex10.pfb
-INPUT C:\Miktex\fonts\type1\public\amsfonts\cm\cmex10.pfb
 INPUT C:\Miktex\fonts\type1\public\amsfonts\cm\cmmi12.pfb
 INPUT C:\Miktex\fonts\type1\public\amsfonts\cm\cmmi12.pfb
-INPUT C:\Miktex\fonts\type1\public\amsfonts\cm\cmmi6.pfb
-INPUT C:\Miktex\fonts\type1\public\amsfonts\cm\cmmi6.pfb
-INPUT C:\Miktex\fonts\type1\public\amsfonts\cm\cmmi8.pfb
-INPUT C:\Miktex\fonts\type1\public\amsfonts\cm\cmmi8.pfb
-INPUT C:\Miktex\fonts\type1\public\amsfonts\cm\cmr10.pfb
-INPUT C:\Miktex\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT C:\Miktex\fonts\type1\public\amsfonts\cm\cmr12.pfb
 INPUT C:\Miktex\fonts\type1\public\amsfonts\cm\cmr12.pfb
-INPUT C:\Miktex\fonts\type1\public\amsfonts\cm\cmr6.pfb
-INPUT C:\Miktex\fonts\type1\public\amsfonts\cm\cmr6.pfb
-INPUT C:\Miktex\fonts\type1\public\amsfonts\cm\cmr7.pfb
-INPUT C:\Miktex\fonts\type1\public\amsfonts\cm\cmr7.pfb
-INPUT C:\Miktex\fonts\type1\public\amsfonts\cm\cmr8.pfb
-INPUT C:\Miktex\fonts\type1\public\amsfonts\cm\cmr8.pfb
-INPUT C:\Miktex\fonts\type1\public\amsfonts\cm\cmsl12.pfb
-INPUT C:\Miktex\fonts\type1\public\amsfonts\cm\cmsl12.pfb
-INPUT C:\Miktex\fonts\type1\public\amsfonts\cm\cmsy10.pfb
-INPUT C:\Miktex\fonts\type1\public\amsfonts\cm\cmsy10.pfb
-INPUT C:\Miktex\fonts\type1\public\amsfonts\cm\cmsy8.pfb
-INPUT C:\Miktex\fonts\type1\public\amsfonts\cm\cmsy8.pfb
+INPUT C:\Miktex\fonts\type1\public\amsfonts\cm\cmsy6.pfb
+INPUT C:\Miktex\fonts\type1\public\amsfonts\cm\cmsy6.pfb
 INPUT C:\Miktex\fonts\type1\public\amsfonts\cm\cmti12.pfb
 INPUT C:\Miktex\fonts\type1\public\amsfonts\cm\cmti12.pfb
-INPUT C:\Miktex\fonts\type1\public\amsfonts\cm\cmti8.pfb
-INPUT C:\Miktex\fonts\type1\public\amsfonts\cm\cmti8.pfb

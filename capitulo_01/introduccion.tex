@@ -5,27 +5,97 @@
 
 \chapter{Introducción}
 
-Este capítulo típicamente realiza la presentación de todo el Trabajo Final de Grado (TFG), excepto por las conclusiones que no deben ser adelantadas aquí. Se considera este capítulo como el inicio de la parte textual del informe del trabajo, toda la redacción preliminar a la introducción corresponde así a la parte pretextual del mismo. Debería incluir, generalmente en este orden \cite{sampieri}.
+La presente investigación es sobre el monitoreo de los equipos de refrigeración de agua en la producción de plásticos con un sistema experto basado en reglas, estos equipos son cruciales para mantener el ritmo de producción mientras se asegura la integridad y calidad del plástico fabricado. \\
+No obstante, la operación de estas máquinas críticas no está exenta de desafíos, siendo la detección y prevención de fallas uno de los obstáculos más significativos.\\
+La falta de un monitoreo eficaz puede resultar en tiempos de inactividad no planificados, pérdidas económicas sustanciales y, en el peor de los casos, comprometer la seguridad de la planta y su personal.\\
+La característica principal que deben tener estos equipos de refrigeración que trabajan con plásticos es el monitoreo en tiempo real ya que de eso dependerá la eficiencia y la fiabilidad de los procesos productivos, que no solo son deseables, sino esenciales para mantener la competitividad y asegurar la sostenibilidad operativa. \\
+Sin embargo, para analizar esta problemática es necesario mencionar sus causas, una de ellas es la variación de la temperatura del agua que afecta considerablemente el producto final ya que los procesos dependen de un enfriamiento rápido y controlado.\\
+Considerando este antecedente, el presente trabajo propone la implementación de un sistema experto basado en reglas para el monitoreo de las maquinas criticas
+ A través de un enfoque que combina la inteligencia artificial con software de código abierto, se desarrolló una solución que permitió el monitoreo en tiempo real y a distancia, ofreciendo a los operadores una herramienta poderosa para la gestión proactiva de la maquinaria crítica.\\
+Este estudio no solo tiene el potencial de mejorar significativamente la operación y mantenimiento de los sistemas de refrigeración en la producción de PVC, sino que también se alinea con los principios de sostenibilidad y eficiencia energética, al buscar optimizar el uso de recursos y minimizar los desperdicios. Mediante la implementación de esta plataforma, se espera no solo contribuir a la literatura existente sobre gestión de mantenimiento en el sector industrial, sino también proporcionar un caso práctico de cómo los sistemas expertos pueden ser aplicadas para superar desafíos operativos complejos.
+ 
 
-\begin{table}[]
-\begin{tabular}{lllll}
-\textbf{aaa} & \textbf{bbbb} & \textbf{ccc} &  &  \\
-11           & 22            & 33           &  &  \\
-             &               &              &  &  \\
-             &               &              &  & 
-\end{tabular}
-\end{table}
+
 \section{Motivación}
-La motivación que condujo al autor a seleccionar el tema y emprender la investigación. Así, se trata de un contexto dependiente enteramente de los gustos e intereses propios del autor.
+En el entorno industrial, la máquina enfriadora es fundamental para la producción, ya que el proceso depende directamente del suministro de agua fría. Sin embargo, cuando ocurre un error en la máquina, muchas veces no nos enteramos a tiempo, ya sea por falta de monitoreo constante o por razones operativas. Como consecuencia, la producción se detiene inesperadamente, generando una pérdida de miles de dólares por cada incidente.
+Ver cómo estas fallas afectan la producción y provocan grandes pérdidas económicas me ha llevado a buscar una solución que permita prevenir estos problemas antes de que ocurran. Esta situación me motiva a desarrollar un sistema experto capaz de:
 
-La motivación que condujo al autor a seleccionar el tema y emprender la investigación. Así, se trata de un contexto dependiente enteramente de los gustos e intereses propios del autor.
+Monitorear en tiempo real la máquina enfriadora.
+Detectar automáticamente errores y fallas críticas.
+Generar alertas inmediatas para evitar interrupciones y reducir pérdidas.
+
+Mi objetivo con este sistema es detener esta pérdida económica, mejorar el rendimiento de 
+la fábrica y garantizar la continuidad operativa sin contratiempos. Con una herramienta de monitoreo inteligente, será posible anticiparse a los problemas y evitar que estos impacten negativamente en la producción.
+
 
    \section{Definición del problema}
-Se trata de la presentación del tema y breve definición del problema, dejando para más adelante el desarrollo detallado de toda la problemática. Se acostumbra formular interrogantes o preguntas de investigación que señalan la orientación del tratamiento.
+   En la industria de producción de PVC, la eficiencia y calidad del producto
+   final están directamente relacionadas con la capacidad de los sistemas de
+   enfriamiento industrial de agua para operar sin interrupciones. Sin embargo,
+   la falta de monitoreo efectivo de los sistemas de enfriamiento de agua críticos
+   puede ocasionar paradas de producción, desperdicio de materiales y afectar la
+   competitividad de las empresas. Las soluciones de monitoreo existentes suelen
+   ser costosas, lo que limita su adopción. Ante lo expuesto surge la siguiente.
+   pregunta: \\
+   Preguntas de investigación: \\
+   ¿Cómo puede un sistema experto basado en reglas, integrado con un sistema de
+   monitoreo y visualización de datos optimizar la toma de decisiones ante fallas
+   en sistemas de refrigeración industrial de agua crítica?\\
+   ¿Qué características y funcionalidades específicas debe tener el sistema experto
+   para una detección precisa y oportuna de fallas en sistemas de refrigeración
+   industrial de agua crítica? \\
+   ¿Cómo se puede integrar efectivamente el sistema experto con el sistema
+   de monitoreo y visualización de datos para garantizar una interfaz de usuario
+   intuitiva y que brinde información relevante al operador?
+   
 
 \section{Objetivos, hipótesis, justificación y delimitación del alcance del tratado.}
-Es importante una clara definición de cada uno de estos tópicos para facilitar la comprensión de toda la obra. Esto otorga una visión global del trabajo e indica qué de resultados son buscados con el desarrollo del trabajo
+\subsection{Objetivo general}.\\
+Desarrollar un sistema experto para optimizar la gestión de fallas en refrigeración industrial de agua crítica.\\
+Objetivos específicos.\\
+Objetivo 1.- Desarrollar un módulo de adquisición de datos a partir del
+dispositivo existente en la fábrica.\\
+Objetivo 2.- Desarrollar un sistema experto basado en reglas para la toma
+de decisiones.\\
+Objetivo 3.- Desarrollar un módulo de monitoreo, alarma y visualización
+de datos para el operador.\\
+Objetivo 4.- Evaluar el desempeño y la usabilidad del sistema.
+\subsection{Hipótesis}
+
+Un sistema experto basado en reglas, integrado con monitoreo, visualización
+de datos y alarmas, puede optimizar significativamente la toma de decisiones
+ante fallas en sistemas de refrigeración industrial de agua crítica \cite{Angel}. Esto
+mejorará la confiabilidad y eficiencia del proceso industrial, reduciendo considerablemente
+el tiempo de respuesta ante fallas \cite{Cobian}.
+
+\subsection{Justificación}
+La industria moderna enfrenta desafíos constantes en la optimización de procesos y en la mejora de la calidad de los productos, especialmente en sectores como la producción de materiales plásticos, donde la precisión y la eficiencia operativa son esenciales \cite{Dorian}. 
+En este contexto, el monitoreo y control de los enfriadores industriales, tales como los de refrigeración de agua utilizados en la fabricación de PVC, juegan un papel clave. Sin embargo, la gestión de estas máquinas puede ser compleja, y cualquier error o ineficiencia puede acarrear consecuencias económicas significativas, así como afectar la calidad del producto final.
+A pesar de la importancia de estas máquinas enfriadoras en el proceso de fabricación, los mecanismos tradicionales de monitoreo pueden no ser suficientes para detectar problemas a tiempo ni para implementar medidas preventivas de manera eficiente \cite{Salvador}. 
+Es por esto que se hace necesario desarrollar un sistema experto basado en reglas que permita la integración de un sistema de monitoreo inteligente. Este sistema experto se diseñará para proporcionar una solución robusta y eficiente en el monitoreo en tiempo real de los sistemas críticos, facilitando la detección temprana de fallos y la optimización de la operación. A través de la aplicación de reglas adaptadas a las condiciones operativas, el sistema experto será capaz de identificar patrones anómalos en el funcionamiento de los sistemas y generar alertas precisas.
+El beneficio principal de este sistema experto es que permitirá la implementación de acciones correctivas preventivas de manera mucho más rápida, mejorando la eficiencia operativa y reduciendo los costos asociados con los tiempos de inactividad y las reparaciones. Al integrar este sistema dentro de los sistemas de monitoreo existentes, se logrará un enfoque proactivo, reduciendo el riesgo de fallos y mejorando la fiabilidad de los equipos de refrigeración en plantas industriales \cite{Shuai}.
+En resumen, este trabajo propone desarrollar un sistema experto que no solo permita optimizar el uso de recursos, sino que también brinde a las empresas la capacidad de anticiparse a los problemas antes de que se conviertan en fallos costosos, asegurando así una mayor productividad y una reducción de los riesgos operativos.
+
+\subsection{Delimitación del Alcance}
+El estudio se enfocará en los sistemas de refrigeración industrial de agua utilizados en la producción de PVC dentro de una fábrica específica, sin extenderse a otros tipos de maquinaria o procesos industriales. Para la recolección de datos, se empleará un módulo de adquisición ya existente en la planta, sin la instalación de nuevos sensores ni relés de accionamiento. Las pruebas se llevarán a cabo en un entorno productivo, asegurando que los datos obtenidos representen fielmente las condiciones operativas del sistema.
+
 
 \section{Descripción de los contenidos por capítulo.} 
-Usualmente, el capítulo termina anunciando brevemente el contenido de los restantes capítulos.
+
+Este trabajo se compone de seis capítulos, en los cuales se desarrolla el diseño, implementación y evaluación de un sistema experto para el monitoreo de máquinas críticas en la industria de producción de PVC. A continuación, se describe el contenido de cada capítulo: \\
+
+\subsection{Capítulo 1}
+En este capítulo se presenta el contexto y la importancia del problema abordado, destacando la necesidad de un sistema experto para mejorar la eficiencia operativa en la industria de producción de PVC. Se plantea el objetivo general, los objetivos específicos y la hipótesis del estudio. Asimismo, se describen el alcance y las limitaciones de la investigación.
+\subsection{Capítulo 2}
+Aquí se exponen los conceptos clave que sustentan el desarrollo del sistema experto, incluyendo teoría sobre sistemas expertos, monitoreo en tiempo real, gestión de alarmas y mantenimiento predictivo. También se revisan antecedentes de estudios similares y tecnologías utilizadas en el monitoreo de sistemas críticos.
+\subsection{Capítulo 3}
+En este capítulo se llega al proceso de selección de herramientas para el desarrollo web, se consideraron los lenguajes de programación más reconocidos y utilizados en la industria, luego de un análisis se llega a una conclusión sobre las herramientas que serán utilizadas.
+
+\subsection{Capítulo 4}
+Se describe el enfoque metodológico adoptado para el desarrollo del sistema, incluyendo la selección de herramientas tecnológicas, la arquitectura del sistema, el proceso de adquisición de datos y el diseño de la interfaz de usuario. Además, se detallan los criterios utilizados para evaluar el desempeño del sistema.
+\subsection{Capítulo 5}
+Aquí se presentan los resultados obtenidos tras la implementación del sistema en un entorno industrial real. Se analizan métricas clave como el tiempo de detección de fallas, la reducción del tiempo de inactividad y la precisión de las alarmas generadas. Además, se incluyen comparaciones con métodos tradicionales de monitoreo y una evaluación de la percepción de los usuarios sobre la interfaz del sistema.
+\subsection{Capítulo 6}
+En el último capítulo se destacan los logros alcanzados con relación a los objetivos planteados, así como la solución del problema de investigación. Se valida la hipótesis inicial a partir de los resultados obtenidos y se formulan recomendaciones para futuras mejoras del sistema, incluyendo la incorporación de técnicas de inteligencia artificial y la ampliación del monitoreo a nuevas variables.
+
 
